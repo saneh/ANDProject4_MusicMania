@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="category_home_text">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="viewAll_style">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">#727272</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="album_name_style">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="trending_song_image_style">
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+    <style name="trending_song_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+</resources>

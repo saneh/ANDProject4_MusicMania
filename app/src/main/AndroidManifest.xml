@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.lemonco.musicmania" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditorsPickAll"
+            android:label="@string/editors_pick" >
+        </activity>
+        <activity
+            android:name=".NewReleasesAll"
+            android:label="@string/new_releases" >
+        </activity>
+        <activity
+            android:name=".TopChartsAll"
+            android:label="@string/top_charts" >
+        </activity>
+        <activity
+            android:name=".AcousticPunjabiRomance"
+            android:label="@string/title_activity_acoustic_punjabi_romance" >
+        </activity>
+        <activity
+            android:name=".Top15DJ"
+            android:label="@string/title_activity_top15_dj" >
+        </activity>
+        <activity
+            android:name=".SitDownComedy"
+            android:label="@string/title_activity_sit_down_comedy" >
+        </activity>
+        <activity
+            android:name=".MatakMatak_NewRelease"
+            android:label="@string/title_activity_matak_matak__new_release" >
+        </activity>
+        <activity
+            android:name=".HydeNewRelease"
+            android:label="@string/title_activity_hyde_new_release" >
+        </activity>
+        <activity
+            android:name=".CandyNewRelease"
+            android:label="@string/title_activity_candy_new_release" >
+        </activity>
+        <activity
+            android:name=".BollywoodTop50"
+            android:label="@string/title_activity_bollywood_top50" >
+        </activity>
+        <activity
+            android:name=".InternationalTop50"
+            android:label="@string/title_activity_international_top50" >
+        </activity>
+        <activity
+            android:name=".PunjabiTop50"
+            android:label="@string/title_activity_punjabi_top50" >
+        </activity>
+        <activity
+            android:name=".NowPlaying"
+            android:label="@string/title_activity_now_playing" >
+        </activity>
+    </application>
+
+</manifest>

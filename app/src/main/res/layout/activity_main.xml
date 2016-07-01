@@ -1,0 +1,383 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/category_home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/editors_pick" />
+
+            <TextView
+                android:id="@+id/viewAllEditorPick"
+                style="@style/viewAll_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewAll" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/acoustic_punjabi_romance_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/acoustic_punjabi_romance_image"
+                    android:layout_below="@id/acoustic_punjabi_romance_image"
+                    android:text="@string/acoustic_punjabi_romance" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/Top15_dj_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/Top15_dj_image"
+                    android:layout_below="@id/Top15_dj_image"
+                    android:text="@string/Top15_dj" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/sit_comedy_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/sit_comedy_image"
+                    android:layout_below="@id/sit_comedy_image"
+                    android:text="@string/sit_down_comedy" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--end of Editor' pick-->
+        <!-- start of new releases-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/category_home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_releases" />
+
+            <TextView
+                android:id="@+id/viewAllNewRelease"
+                style="@style/viewAll_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewAll" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/matak_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/matak_image"
+                    android:layout_below="@id/matak_image"
+                    android:text="@string/matak_album" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/hyde_album"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/hyde_album"
+                    android:layout_below="@id/hyde_album"
+                    android:text="@string/hyde_album" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/candy_album"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/candy_album"
+                    android:layout_below="@id/candy_album"
+                    android:text="@string/candy_album" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!-- END of new releases-->
+        <!-- START of Top Charts-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/category_home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top_charts" />
+
+            <TextView
+                android:id="@+id/viewAllTopCharts"
+                style="@style/viewAll_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/viewAll" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/bollywood_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/bollywood_image"
+                    android:layout_below="@id/bollywood_image"
+                    android:text="@string/bollywood_top50" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/international_top50_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/international_top50_image"
+                    android:layout_below="@id/international_top50_image"
+                    android:text="@string/international_top50" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+                <ImageView
+                    android:id="@+id/punjabi_top50_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/sample_image" />
+
+                <TextView
+                    style="@style/album_name_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/punjabi_top50_image"
+                    android:layout_below="@id/punjabi_top50_image"
+                    android:text="@string/punjabi_top50" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!--End of Top Charts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/top_trending_songs"
+                style="@style/category_home_text"/>
+            <LinearLayout
+                android:id="@+id/trending_song1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/sample_image"
+                    style="@style/trending_song_image_style"/>
+                <TextView
+                    style="@style/trending_song_text_style"
+                    android:text="@string/song1"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/trending_song2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/sample_image"
+                    style="@style/trending_song_image_style"/>
+                <TextView
+                    style="@style/trending_song_text_style"
+                    android:text="@string/song2"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/trending_song3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/sample_image"
+                    style="@style/trending_song_image_style"/>
+                <TextView
+                    style="@style/trending_song_text_style"
+                    android:text="@string/song3"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/trending_song4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/sample_image"
+                    style="@style/trending_song_image_style"/>
+                <TextView
+                    style="@style/trending_song_text_style"
+                    android:text="@string/song4"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

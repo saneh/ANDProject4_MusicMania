@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         hyde_album.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MatakMatak_NewRelease.class);
+                Intent intent = new Intent(getApplicationContext(),HydeNewRelease.class);
                 startActivity(intent);
             }
         });

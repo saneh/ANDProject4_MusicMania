@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">MusicMania</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="editors_pick">Editor\'s Pick</string>
     <string name="viewAll">VIEW ALL</string>
@@ -21,21 +20,21 @@
     <string name="song3">Wakhra Swag</string>
     <string name="song4">Kuch toh hai</string>
     <string name="top_trending_songs">Top Trending Songs</string>
-    <string name="title_activity_editors_pick_all">EditorsPickAll</string>
-    <string name="title_activity_new_releases_all">NewReleasesAll</string>
-    <string name="title_activity_top_charts_all">TopChartsAll</string>
+    <string name="title_activity_editors_pick_all">Editor\'s PickAll</string>
+    <string name="title_activity_new_releases_all">New Releases</string>
+    <string name="title_activity_top_charts_all">Top Charts</string>
     <string name="new_releases_all">Displays all new releases albums</string>
     <string name="top_charts_all">Displays All Top Charts</string>
-    <string name="title_activity_acoustic_punjabi_romance">AcousticPunjabiRomance</string>
-    <string name="title_activity_top15_dj">Top15DJ</string>
-    <string name="title_activity_sit_down_comedy">SitDownComedy</string>
-    <string name="title_activity_matak_matak__new_release">MatakMatak_NewRelease</string>
-    <string name="title_activity_hyde_new_release">HydeNewRelease</string>
-    <string name="title_activity_candy_new_release">CandyNewRelease</string>
-    <string name="title_activity_bollywood_top50">BollywoodTop50</string>
-    <string name="title_activity_international_top50">InternationalTop50</string>
-    <string name="title_activity_punjabi_top50">PunjabiTop50</string>
-    <string name="title_activity_now_playing">NowPlaying</string>
+    <string name="title_activity_acoustic_punjabi_romance">Acoustic Punjabi Romance</string>
+    <string name="title_activity_top15_dj">Top 15 DJ songs</string>
+    <string name="title_activity_sit_down_comedy">Sit Down Comedy</string>
+    <string name="title_activity_matak_matak__new_release">Matak Matak</string>
+    <string name="title_activity_hyde_new_release">Hyde</string>
+    <string name="title_activity_candy_new_release">Candy</string>
+    <string name="title_activity_bollywood_top50">Bollywood Top50 songs</string>
+    <string name="title_activity_international_top50">International Top50 songs</string>
+    <string name="title_activity_punjabi_top50">Punjabi Top50 songs</string>
+    <string name="title_activity_now_playing">Now Playing</string>
     <string name="acoustic_punjabi_romance_text">Displays all acoustic punjabi romantic songs.User can then click on individual songs to play. Need a way to display all songs in a dynamic list. Static textview wont work for a long list of songs. On long clicking any song it opens "Now Playing" screen </string>
     <string name="bollywood_top50_text">Displays all Top 50 bollywood songs.User can then click on individual songs to play. Need a way to display all songs in a dynamic list. Static textview wont work for a long list of songs. On long clicking any song it opens "Now Playing" screen</string>
     <string name="candy_album_text">Displays all Candy Album songs.User can then click on individual songs to play. Need a way to display all songs in a dynamic list. Static textview wont work for a long list of songs. On long clicking any song it opens "Now Playing" screen</string>

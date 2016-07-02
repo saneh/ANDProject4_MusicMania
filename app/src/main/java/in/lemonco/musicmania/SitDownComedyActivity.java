@@ -5,18 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class InternationalTop50 extends AppCompatActivity {
+public class SitDownComedyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_international_top50);
+        setContentView(R.layout.activity_sit_down_comedy);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_international_top50, menu);
+        getMenuInflater().inflate(R.menu.menu_sit_down_comedy, menu);
         return true;
     }
 

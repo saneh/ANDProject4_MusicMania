@@ -5,18 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class AcousticPunjabiRomance extends AppCompatActivity {
+public class BollywoodTop50Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_acoustic_punjabi_romance);
+        setContentView(R.layout.activity_bollywood_top50);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_acoustic_punjabi_romance, menu);
+        getMenuInflater().inflate(R.menu.menu_bollywood_top50, menu);
         return true;
     }
 

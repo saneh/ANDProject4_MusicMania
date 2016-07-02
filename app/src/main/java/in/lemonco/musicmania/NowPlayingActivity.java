@@ -5,18 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class NewReleasesAll extends AppCompatActivity {
+public class NowPlayingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_releases_all);
+        setContentView(R.layout.activity_now_playing);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_new_releases_all, menu);
+        getMenuInflater().inflate(R.menu.menu_now_playing, menu);
         return true;
     }
 

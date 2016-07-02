@@ -5,18 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Top15DJ extends AppCompatActivity {
+public class NewReleasesAllActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_top15_dj);
+        setContentView(R.layout.activity_new_releases_all);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_top15_dj, menu);
+        getMenuInflater().inflate(R.menu.menu_new_releases_all, menu);
         return true;
     }
 

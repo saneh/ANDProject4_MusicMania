@@ -5,18 +5,18 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MatakMatak_NewRelease extends AppCompatActivity {
+public class InternationalTop50Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_matak_matak__new_release);
+        setContentView(R.layout.activity_international_top50);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_matak_matak__new_release, menu);
+        getMenuInflater().inflate(R.menu.menu_international_top50, menu);
         return true;
     }
 

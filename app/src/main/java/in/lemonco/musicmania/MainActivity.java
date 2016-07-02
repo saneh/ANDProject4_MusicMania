@@ -1,7 +1,6 @@
 package in.lemonco.musicmania;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -33,63 +32,63 @@ public class MainActivity extends AppCompatActivity {
         acoustic_punjabi_romance_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),AcousticPunjabiRomance.class);
+                Intent intent = new Intent(getApplicationContext(),AcousticPunjabiRomanceActivity.class);
                 startActivity(intent);
             }
         });
         Top15_dj_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),Top15DJ.class);
+                Intent intent = new Intent(getApplicationContext(),TopDjActivity.class);
                 startActivity(intent);
             }
         });
         sit_comedy_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),SitDownComedy.class);
+                Intent intent = new Intent(getApplicationContext(),SitDownComedyActivity.class);
                 startActivity(intent);
             }
         });
         matak_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MatakMatak_NewRelease.class);
+                Intent intent = new Intent(getApplicationContext(),MatakMatakNewReleaseActivity.class);
                 startActivity(intent);
             }
         });
         hyde_album.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),HydeNewRelease.class);
+                Intent intent = new Intent(getApplicationContext(),HydeNewReleaseActivity.class);
                 startActivity(intent);
             }
         });
         candy_album.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),CandyNewRelease.class);
+                Intent intent = new Intent(getApplicationContext(),CandyNewReleaseActivity.class);
                 startActivity(intent);
             }
         });
         bollywood_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),BollywoodTop50.class);
+                Intent intent = new Intent(getApplicationContext(),BollywoodTop50Activity.class);
                 startActivity(intent);
             }
         });
         international_top50_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),InternationalTop50.class);
+                Intent intent = new Intent(getApplicationContext(),InternationalTop50Activity.class);
                 startActivity(intent);
             }
         });
         punjabi_top50_image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),PunjabiTop50.class);
+                Intent intent = new Intent(getApplicationContext(),PunjabiTop50Activity.class);
                 startActivity(intent);
             }
         });
@@ -102,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         viewAllEditorPick.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),EditorsPickAll.class);
+                Intent intent = new Intent(getApplicationContext(),EditorsPickAllActivity.class);
                 startActivity(intent);
 
             }
@@ -110,14 +109,14 @@ public class MainActivity extends AppCompatActivity {
         viewAllNewRelease.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NewReleasesAll.class);
+                Intent intent = new Intent(getApplicationContext(),NewReleasesAllActivity.class);
                 startActivity(intent);
             }
         });
         viewAllTopCharts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),TopChartsAll.class);
+                Intent intent = new Intent(getApplicationContext(),TopChartsAllActivity.class);
                 startActivity(intent);
             }
         });
@@ -132,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         trending_song1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NowPlaying.class);
+                Intent intent = new Intent(getApplicationContext(),NowPlayingActivity.class);
                 intent.putExtra("SONGNAME",R.string.song1);
                 intent.setType("*/*");
                 startActivity(intent);
@@ -141,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
         trending_song2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NowPlaying.class);
+                Intent intent = new Intent(getApplicationContext(),NowPlayingActivity.class);
                 intent.putExtra("SONGNAME",R.string.song2);
                 intent.setType("*/*");
                 startActivity(intent);
@@ -150,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
         trending_song3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NowPlaying.class);
+                Intent intent = new Intent(getApplicationContext(),NowPlayingActivity.class);
                 intent.putExtra("SONGNAME",R.string.song3);
                 intent.setType("*/*");
                 startActivity(intent);
@@ -159,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
         trending_song4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),NowPlaying.class);
+                Intent intent = new Intent(getApplicationContext(),NowPlayingActivity.class);
                 intent.putExtra("SONGNAME",R.string.song4);
                 intent.setType("*/*");
                 startActivity(intent);
